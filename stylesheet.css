@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    color: white;
+}
+
+h2 {
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 19px;
+    padding-bottom: 0.5em;
+}
+
+input {
+    border-radius: 0.45em;
+    border: solid;
+    border-color: black;
+}
+
+button {
+    border-radius: 0.45em;
+    border: solid;
+    border-color: black;
+}
+
+body {
+    text-align: center;
+    background-color: black;
+}
+
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 1em;
+}
+
+
+#to-do-container {
+    background-image: linear-gradient(to bottom right, #86FACB, #75EBFE);
+    text-align: center;
+    padding-top: 0.25em;
+    padding-bottom: 1.5em;
+    font-size: 28px;
+}
+
+#newTask {
+    font-size: 20px;
+}
+
+#addTask {
+    font-size: 20px;
+    font-weight: 10px;
+}
+
+#to-do-list {
+    padding-top: 0.5em;
+    cursor: pointer;
+}
+
+#edit-task {
+    font-size: 14px;
+    font-weight: 10px;
+}
+
+#delete-task {
+    font-size: 14px;
+    font-weight: 10px;
+}
+
+.paragraph-styling {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    padding: 1em;
+}
